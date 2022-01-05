@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="background-image:url(img/service3.jpeg)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>switchgreenltd.com.ng</title>
+    <link href="includes/vendors/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="includes/bootstrap.css">
+    <link rel="stylesheet" href="includes/animate.css">
+    
+   <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <!-- Favicon -->
+   
+   <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index"><img src="img/company logo.png" style="height:100px;" class="image"
+            href="Home"></a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="margin-left:20px;">
+        <ul class="navbar-nav my-1 mr-auto  mt-2 mt-lg-0">
+            <li class="nav-item active" style="font-size:20px; margin-left:25px;">
+                <a class="nav-link" href="index.html" style="color:#808080;">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" style="font-size:20px; margin-left:25px;">
+                <a class="nav-link" href="Company.html" style="color:#808080;">COMPANY</a>
+            </li>
+            <li class="nav-item" style="font-size: 20px; margin-left:25px;">
+                <a class="nav-link" href="Product.html" style="color:#808080;">PRODUCTS</a>
+            </li>
+            <li class="nav-item" style="font-size: 20px; margin-left:25px;">
+                <a class="nav-link" href="Services.html" style="color:#808080;">SERVICES</a>
+            </li>
+            <li class="nav-item" style="font-size: 20px; margin-left:25px;">
+                <a class="nav-link" href="Contact_us.html" style="color:#808080;">CONTACT</a>
+            </li>
+            <li class="nav-item" style="font-size: 20px; margin-left:25px;">
+                <a class="nav-link" href="https://switchgreenltd.com.ng/blog/" style="color:#808080;">BLOG</a>
+            </li>
+        </ul
+      
+    </div>
+</nav>
+<body>
+
+<style>
+.bgimage {
+    background-image: url(img/Logstrup-01-scaled.jpg);
+    height: 150px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.gd {
+    text-align: center;
+    color:green;
+    font-family: Arial black;
+    text-shadow: 5px 5px 5px 5px black;
+    font-size:30px;
+    text-justify:center;
+    font-style:bold;
+
+}
+.bg6{
+    box-shadow:5px 5px 5px #9999;
+}
+.icon {
+    width: 100px;
+    margin: 0px;
+    display: block;
+    position: cover;
+}
+a.btn-second4:hover{
+    background-color:#242222;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.cardy{
+     box-shadow:5px 5px 5px 5px #9999;
+}
+
+
+
+  .accordion{
+      max-width: 900px;
+  }
+  .accordion .contentBx{
+      position: relative;
+      margin: 10px 10px;
+  }
+  
+  .accordion .contentBx .label{
+      position: relative;
+      padding: 10px;
+      background-color: green;
+      color: white;
+      cursor: pointer;
+  }
+
+  .accordion .contentBx .label::before{
+      content: '+';
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      font-size: 1.5em;
+  }
+  .accordion .contentBx.active .label::before{
+      content: '-';
+  }
+  .accordion .contentBx .content{
+      position: relative;
+      padding: 10px;
+      background-color: rgb(255, 255, 255);
+      height: 0;
+      overflow:hidden;
+      transition: 0.5s;
+      overflow-y: auto ;
+  }
+  .accordion .contentBx.active .content{
+      height: 300px;
+      padding: 10px;
+  }
+  .content p{
+      margin-top: 20px;
+  }
+
+
+</style>
+<!---our product-->
+<div class="container-fluid bgimage">
+</div>
+</head>
+<body>
+<section class="bg5 py-3">
+    <div class="container bg6">
+        <h2 class="text-center gd">Our Products<i class="fa fa-star fa-1x py-2 " style="color:green;" ;></i><span></h2>
+         <p style="text-align:center; text-justify:center;color:#c2c2c2; color: rgb(128, 128, 128);" ;>We collaborate with local and foreign partners to execute the
+            following:</p>
+            </div>
+        
+        
+        <div class="container">
+        <div class="row mt-5 card2">
+            <div class="col-md-12 col-lg-4 py-5 align-items-center">
+                <div class="card mx-auto cardy" style="width: 18rem;">
+     <div class="container-fluid" style="background-color:rgb(255, 255, 255);">
+    <div class="row">
+       <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel  slide  py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/logstrup baseframe1.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:100%; height:auto; margin-left:;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                   <img src="img/logstrup baseframe2.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:100%; height:auto; margin-left:;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/logstrup baseframe4.jpg.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:100%; height:auto; margin-left:;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>       
+                    <div class="card-body">
+                          <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Base frame</div>
+                <div class="content">
+                     <p class="card-text text-left">Your switchgear needs the same strong support that comes with high-quality materials. We designed our base frame to match the base of our Modular System: with an uncompromised focus on flexibility and strength. Made from 2.5mm galvanized high strength steel, Our base frame allows for very high weights. It comes with lifting points for a forklift, and the option to add transport wheels or lifting eyes for easy transportation according to your needs.</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i>
+                        </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+            
+            
+            
+            
+            <div class="col-md-12 col-lg-4 py-5 align-items-center">
+                <div class="card mx-auto cardy" style="width: 18rem;">
+                    
+                    
+                  <div class="container-fluid" style="background-color:rgb(255, 255, 255);">
+    <div class="row">
+       <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel  slide  py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/Logstrup-frame2.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:90%; height:auto; margin-left:10px;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                   <img src="img/Logstrup-frame1.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:90%; height:auto; margin-left:10px;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/Logstrup-frame3.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:90%; height:auto; margin-left:10px;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>       
+             
+                    
+                    <div class="card-body">
+        <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Framework</div>
+                <div class="content">
+                     <p class="card-text text-left">The framework is the strength of our Modular System. It is based on our original 190mm Modular Framework made from 2mm steel with 5 bends for optimal strength. In combination with our unique corner profile, Our Modular System allows you to configure almost any solution that matches your project scope. Due to the special surface of the Aluzinc coating, the framework has self-healing ability that makes it very resistant towards rust and corrosion. This makes the Modular System suitable for demanding industries.  </p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i>
+                        </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+            
+            
+            <div class="col-md-12 col-lg-4 py-5 align-items-center">
+                <div class="card mx-auto cardy" style="width: 18rem;">
+                         
+                  <div class="container-fluid" style="background-color:rgb(255, 255, 255);">
+    <div class="row">
+       <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel  slide  py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/ACA.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:80%; height:auto; margin-left:10px;" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                   <img src="img/ACA-3.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:80%; height:auto; margin-left:10px;" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/ACA-2.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:80%; height:auto; margin-left:10px;" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>       
+                    
+                    <div class="card-body">
+                        <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Cabinet structures (ACA)</div>
+                <div class="content">
+                     <p class="card-text text-left">Cabinet structures are made of 1.5mm steel coils, which integrate the structures corner profiles with a non-removable side, top, and bottom cover. The cabinet structures may be used in combination with the framework structures, or as smaller stand-alone enclosures. They are available from 1 to 12 modules in width and height, and from 1 to 3 modules in depth. A multiple of threaded and non-threaded holes on the cabinet structures allows for maximum flexibility when it comes to fixing internal parts and configurations.</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i>
+                        </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+            
+
+    
+    <section class="bg5 py-5">
+    <div class="container bg6">
+        <div class="row card2">
+            <div class="col-md-12 col-lg-4 py-5 align-items-center">
+                <div class="card mx-auto cardy" style="width: 18rem;">
+                    <img src="img/Energy_Power_1_Oil-and-Gas-Reyes.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:50%; height:auto; margin-left:25%;margin-top:10% " alt="...">
+                    <div class="card-body">
+                         <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Cover Panels</div>
+                <div class="content">
+                     <p class="card-text text-left">Our cover panels are manufactured with an automated corner forming technique that eliminates welding. The appearance and quality are superior to any welded option as it is perfectly rounded and less susceptible to rust. Our external cladding is made from 1.5-2mm sheet steel and coated with either Aluzinc or Polyester powder paint. The qualities and self-healing properties of Aluzinc leave the cladding less prone to minor scratches. If your project requires a painted surface, all RAL-colours are available. The powder coating system we use for painted surfaces ensures a consistently high-quality result. Find all available RAL colours here. Doors and cover panels are sealed with a rubber gasket, ensuring ingress up to IP54. The sealing gaskets are tightly and evenly fitted on the entire edge of the cover panel.</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i>
+                        </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+            
+            
+            <div class="col-md-12 col-lg-4 py-5 align-items-center">
+                <div class="card mx-auto cardy" style="width: 18rem;">
+                    <img src="img/Sealing-Gasket-scaled.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:50%; height:auto; margin-left:25%;margin-top:10% " alt="...">
+                    <div class="card-body">
+                        <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Doors</div>
+                <div class="content">
+                     <p class="card-text text-left">Door corners are made with an automated corner forming technique that leaves a perfectly rounded corner without any use of welding. Our doors are superior in quality and appearance to any welded option. The doors are easy to mount due to click mounting. Doors and hinges are designed to open from 90 to 120-degree angles. Extra stabilisers and doorstops are available for larger doors to ensure safe operation. All doors have concealed hinges for a practical and high-quality finish. Doors and cover panels are sealed with a rubber gasket, ensuring ingress up to IP54. The sealing gaskets are tightly and evenly fitted on the entire edge of the cover panel.</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i>
+                        </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+            
+            <div class="col-md-12 col-lg-4 py-5 align-items-center">
+                <div class="card mx-auto cardy" style="width: 18rem;">
+                    <img src="img/Busbar-section.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:70%; height:auto; margin-left:15%;margin-top:10% " alt="...">
+                    <div class="card-body">
+      <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Busbar Section</div>
+                <div class="content">
+                     <p class="card-text text-left">The Busbar System consists of modular components, which allow unlimited variations and ratings. Three, four and five-wire systems can be designed with ease. Ratings up to 8500A are standard and tested for both temperature rise and short circuit level. The Busbar System is based on a two-bar-per-phase system, both horizontal and vertical, eliminating time-consuming drilling and bending of copper bars. The busbar joints are attached by bolts and nuts of 8.8 quality in connection with special spring washers, type DIN 6796. This ensures a highly efficient and reliable connection throughout the complete lifetime of the assembly, even during variations in operational and thermal conditions. The connections between the horizontal and vertical bars are made by a special busbar connector system that secures a stable and safe connection.</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i>
+                        </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+            
+    
+     <section class="bg5 py-3">
+    <div class="container bg6">
+        <div class="row card2">
+            <div class="col-md-12 col-lg-4 py-5 align-items-center">
+                <div class="card mx-auto cardy" style="width: 18rem;">
+                    <img src="img/Different-Units-2-scaled.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:50%; height:auto; margin-left:23%;margin-top:10% " alt="...">
+                    <div class="card-body">
+                               
+      <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Removable Units</div>
+                <div class="content">
+                     <p class="card-text text-left">Our Removable Units (RMU) ensure high protection against contact and can be accessed from the front or rear. The RMU’s are fully re-configurable while live which ensures minimal downtime. It is possible for the RMU unit to be in a tested position if the disconnector has a test position or by an external test function when the disconnector is in off position. The RMU’s have an optional coding system that ensures that the units are placed in the right position in the switchboard. For safety measures, our RMU’s have a mechanical interlock on the disconnector shaft. There are two dedicated positions achieved by physical movement of the unit: - Removed position - Connected position Type of electrical connections (acc. To IEC 61439-2) : WF F/D (depending on configuration).</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i>
+                        </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+    <div class="col-md-12 col-lg-4 py-5 align-items-center">
+    <div class="card mx-auto cardy" style="width: 18rem;">
+    <div class="container-fluid" style="background-color:rgb(255, 255, 255);">
+    <div class="row">
+       <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel  slide  py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/DSC0023-scaled.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:90%; height:auto; margin-left:10px;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                   <img src="img/DSC0019-scaled.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:90%; height:auto; margin-left:10px;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/Position-indicator_7-1-scaled (1).jpg" class="card-img-top img-fluid d-block center-block" style="max-width:90%; height:auto; margin-left:10px;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>       
+             
+<div class="card-body">
+      <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Withdrawable Units</div>
+                <div class="content">
+                     <p class="card-text text-left">Omega WDU Type A is a withdrawable unit with a position indicator and moving control unit. Our withdrawable units (WDU) have high operational safety and have IP20 Protection in all positions. The units can rate up to 630A, 500kw, 690V, and can hold up to 20 units per section. The WDU’s can be put in a test position and they are fully re-configurable while live which ensures minimal downtime. The outgoing cables are connected to outlets or terminals in the cable section, so the units can be switched out or fixed easily. The auxiliary cables are connected to terminals in the cable section, which can be accessed from the rear or the front. To guarantee the safety of the WDU’s, an optional Logstrup or Harting coding system depending on plug configuration is available, which ensures that the units are placed correctly in the switchboard. The Units have a Mechanical interlock on the disconnector shaft and key. The optional microswitches make it possible to change between isolated, test, and connected position. The units can connect with different communication systems such as DeviceNet and Profibus. 4 dedicated positions achieved by physical movement of the unit: - Removed position - Isolated position (padlocking possible) - Test Position (padlocking possible) - Connected position Sizes: X = 3, 4. Y = 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4 Type of electrical connections (acc. To IEC 61439-2) : W W W</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i></p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+            
+     <div class="col-md-12 col-lg-4 py-5 align-items-center">
+    <div class="card mx-auto cardy" style="width: 18rem;">
+    <div class="container-fluid" style="background-color:rgb(255, 255, 255);">
+    <div class="row">
+       <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel  slide  py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/MDU-2.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:90%; height:auto; margin-left:10px;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                   <img src="img/MDU.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:90%; height:auto; margin-left:10px;margin-top:10% " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>       
+           
+                    
+                    
+                    <div class="card-body">
+                        <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Mini-Withdrawable Units</div>
+                <div class="content">
+                     <p class="card-text text-left">The Mini-Withdrawable Units resemble the Withdrawable Units, but the Mini-Withdrawable Units makes it possible to have more units per stack. The mini WDU offers high protection for personnel and can be accessed from the rear and the front. The units rate up to 80A, 55kW, and 690V. The unit has an interface box that can be prewired and is removable. To ensure the minimal down-time the Mini WDU is fully re-configurable while live. The mini WDU can have up to 40 units per stack, and the auxiliary controls up to 46 control pins. The mini WDU comes with an optional coding system and can connect with different communications systems such as DeviceNet and Profibus. Sizes: X = 1, 1.5, 2, 3. Y = 1</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i></p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+    
+     
+    <div class="container bg6">
+        <div class="row card2">
+            <div class="col-md-12 col-lg-4 py-5 align-items-center">
+                <div class="card mx-auto cardy" style="width: 18rem;">
+                    <img src="img/Logstrup-64.jpg" class="card-img-top img-fluid d-block center-block" style="max-width:60; height:auto;margin-top:10% " alt="...">
+                    <div class="card-body">
+                       <div class="accordion">
+            <div class="contentBx">
+                <div class="label">Cable Section</div>
+                <div class="content">
+                     <p class="card-text text-left">The modularity of our Modular System continues in our cable sections. The cableways can be designed to fit the number of cables and their sizes in the assembled switchboard. Standard widths are 450mm, 640mm, and 830mm.A cableway can run horizontally throughout the whole length of the board, at the top and bottom, as well as vertically beside each functional unit section. This provides a complete island around each functional unit section and allows inter-wiring between various units and back to PLC sections with ease.</p>
+                           <a href="Contact_us" class="btn btn-success btn-second4"><span style="color:white">Make request</span><i
+                                class="fa fa-angle-double-right icon-double-angle-right" style="margin-left:10px;"></a></i></p>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+     </div>
+</section>
+</body>
+ <script>
+            const accordion = document.getElementsByClassName('contentBx');
+
+            for (i = 0; i<accordion.length; i++) {
+                accordion[i].addEventListener('click', function(){
+                    this.classList.toggle('active')
+                })
+            }
+        </script>
+</html>
+
+<footer class="py-5 py-md-0">
+    <hr class="mt-0 mb-2">
+    <div class="container">
+        <!--  shadow rounded-top pt-2 -->
+        <div class="row align-items-center justify-content-around">
+            <div class="col-6 col-md-3 mb-3 order-md-first order-2 pl-md-0">
+                <div class="col-md-9 pl-md-0 mb-3">
+                    <img src="img/company logo.png" alt="switchgreen Logo" class="img-fluid d-block mx-auto">
+                </div>
+            </div>
+            <div class="col-12 col-md-5 mb-3">
+                <div class="row links">
+                    <div class="col-6">
+                        <div class="nav flex-column">
+                            <a class="nav-link d-inline-block " href="index"><span style="color:#808080">Home</a>
+                            <a class="nav-link d-inline-block " href="Company"><span style="color:#808080">Company</a>
+                            <a class="nav-link d-inline-block " href="Product"><span style="color:#808080">Products</a>
+
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="nav flex-column">
+                            <a class="nav-link d-inline-block " href="Services"><span style="color:#808080">Services</a>
+                            <a class="nav-link d-inline-block " href="Contact_us"><span style="color:#808080">Contact us</a>
+                            <a class="nav-link d-inline-block " href="https://switchgreenltd.com.ng/blog"><span style="color:#808080">Blog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-last col-5 col-md-3 mb-3 pl-0 pl-md-3">
+                <p class="mb-2 font-weight-bold small"><span style="color:#808080">Follow Us</p>
+                <div class="btn-group btn-flex socials">
+                <a class="fb-ic" style="color:blue" ;
+                           href="https://web.facebook.com/Switchgreen-Energy-Ltd-101596648337805/" ;>
+                           <i class="fab fa-facebook-f white-text mr-4"> </i>
+                       </a>
+                <a class="tw-ic" style="color:#00BFFF" ;>
+                           <i class="fab fa-twitter white-text mr-4"> </i>
+                       </a>
+                    <!--Instagram-->
+                    <a class="ins-ic" style="color:#FF00FF" ;>
+                           <i class="fab fa-instagram white-text mr-4"> </i>
+                       </a>
+
+                     <!--Linkedin -->
+                     <a class="li-ic" style="color:#0000FF" ;>
+                           <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                       </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 text-md-center">
+             <a href="https://switchgreenltd.com.ng/Logstrup_Switchgreen_OEM_Certification.pdf" style="color:green;">Our OEM Certification</a>
+            <p class="my-0 mx-auto py-2">Copyright © 2021 SwitchGreen Ltd</p>
+        </div>
+    </div>
+</footer>
+
+
+   <script src="includes/jquery-3.js"></script>
+   <script src="includes/popper.js"></script>
+   <script src="includes/bootstrap.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H5ZF3NPLRD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H5ZF3NPLRD');
+</script>
+
+   </body>
+
+   </html>
